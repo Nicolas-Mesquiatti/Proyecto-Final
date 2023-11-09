@@ -1,0 +1,667 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Nosifer"
+}
+
+/* Menu de navegacion */
+.form {
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Bakbak One";
+
+}
+
+.menu {
+    background-color: rgb(3, 5, 5);
+    list-style: none;
+    padding: 0%;
+    width: 100%;
+    flex-direction: row;
+}
+
+.menu li a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(238, 37, 15);
+    padding: 30px;
+    padding-right: 30px;
+    font-family: "Bakbak One";
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 50px;
+    margin-inline-start: 0px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 20px 20px 40px 50px;
+
+    color: rgb(255, 8, 0);
+    width: 100%;
+    padding: 12px 10px 12px 10px;
+    font-family: "fantasy"
+
+}
+
+/* Subtitulo */
+.subra {
+    border-bottom: solid 8px rgb(196, 64, 64);
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 40px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Nosifer"
+}
+
+
+h2 {
+    font-family: "Nosifer";
+    color: rgb(231, 5, 5);
+    padding: 20px;
+    text-decoration: underline;
+}
+
+/* Menu de mas recomendaciones */
+.otromas {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    color: rgb(233, 54, 54);
+    list-style-type: unset;
+    justify-items: center;
+}
+
+/* Configuracion de texto y decoraciones */
+.colores2 {
+    font-family: "Frijole";
+    color: rgb(209, 19, 19);
+}
+
+.colores3 {
+    color: rgb(243, 45, 19);
+    text-shadow: 100px;
+    box-shadow: 3px 100px 100px 33px;
+    border: solid;
+    border-radius: 10px;
+    background-color: black;
+    font-family: "Frijole";
+
+}
+
+h3 {
+    color: rgb(189, 255, 7);
+    box-shadow: 33px 100px 100px 3px;
+    background-color: rgba(238, 155, 61, 0.253);
+    font-family: "Bakbak One";
+
+}
+
+body section ul h2 {
+    color: rgb(228, 53, 41);
+}
+
+/* Footer/pie de pagina */
+.menu2 {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 20px 2px 50px 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(252, 0, 0);
+    width: 100%;
+    padding: 17px 0 17px 0;
+    list-style-type: decimal-leading-zero;
+
+}
+
+div ul li {
+    list-style-type: none
+}
+
+/* Configuracion del carrousel */
+.contenedor {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+
+
+/* HACER RESPONSIVE LA PAGINA */
+
+
+/* LA BARRA DE NAVEGACION */
+@media(max-width:600px) {
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+        padding-right: 100%;
+        width: 100%;
+        height: 0%;
+        padding-left: 30px;
+    }
+
+    .menu li a {
+        color: rgb(240, 248, 255);
+        display: flex;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 10px 0px;
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 10px 10px 10px 45px;
+
+        color: rgb(240, 226, 226);
+        width: 20%;
+        padding: 0px 0px 0px 0px;
+        font-family: "fantasy"
+
+    }
+
+    .form {
+        flex-direction: column;
+        padding-top: 0%;
+        margin-top: 4%;
+        text-align: start;
+        color: rgb(186, 220, 250);
+        padding: 5px 02px 1px 0px;
+        margin: 0px 5px 15px 30px;
+
+    }
+
+    /* El subtitulo */
+    .subra {
+        color: rgb(5, 2, 2);
+        box-shadow: none;
+        border-bottom: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        text-decoration: underline;
+        font-family: "Nosifer"
+    }
+
+    h2 {
+        font-family: "Nosifer";
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    /* EL CAROUSEL... NO PUDE ACOMODAR EL TEXTO QUE ESTABA DENTRO DEL CAROUSEL ESO SI QUE ME COMPLICO */
+    .contenedor {
+        display: flex;
+        width: 50%;
+        justify-content: right;
+        margin-left: 40px;
+    }
+
+    /* Menu de recomendaciones */
+    .otromas {
+        display: grid;
+        list-style-type: none;
+        justify-items: start;
+        box-shadow: none;
+    }
+
+    .colores2 {
+        font-family: "Frijole";
+        color: rgb(235, 202, 202);
+        list-style-type: none;
+
+    }
+
+    .colores3 {
+        color: rgb(211, 192, 189);
+        text-shadow: 10px;
+        box-shadow: 30px 0px 0px 0px;
+        background-color: rgb(61, 46, 46);
+        font-family: "Frijole";
+
+    }
+
+    body section ul h2 {
+        color: rgb(250, 250, 250);
+    }
+
+    /* Footer */
+    .menu2 {
+        display: block;
+        text-align: center;
+        box-shadow: 70px 2px 50px 10px;
+        background-color: rgba(49, 46, 46, 0.514);
+        color: rgba(49, 41, 41, 0.74);
+        width: 100%;
+        padding: 17px 0 17px 0;
+        list-style-type: decimal-leading-zero;
+
+    }
+
+}
+
+/* Para los que tengan las pantallas desde 601px a 1000px */
+
+@media(min-width:601px) {
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        padding: 0%;
+        width: 100%;
+        height: 20%;
+        padding-left: 200px;
+    }
+
+    .menu li a {
+        color: rgb(35, 212, 243);
+        display: flex;
+        flex-direction: row;
+        padding: 10px 222px 0px 0px;
+        margin: 0px 0px 10px 0px;
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 10px 10px 10px 45px;
+
+        color: rgb(240, 226, 226);
+        width: 20%;
+        padding: 0px 0px 0px 0px;
+        font-family: "fantasy"
+
+    }
+
+    .form {
+        text-align: center;
+        padding-top: 66%;
+        margin-top: 22%;
+        color: rgb(31, 200, 252);
+        padding: 5px 2px 1px 0px;
+        margin: 110px 50px 115px 0px;
+
+    }
+
+    /* El subtitulo */
+    .subra {
+        color: rgba(64, 156, 241, 0.76);
+        box-shadow: 10px 10px 670px 30px;
+        border-bottom: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        text-decoration: underline;
+        font-family: "Nosifer"
+    }
+
+    h2 {
+        font-family: "Nosifer";
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    /* EL CAROUSEL... NO PUDE ACOMODAR EL TEXTO QUE ESTABA DENTRO DEL CAROUSEL ESO SI QUE ME COMPLICO */
+    .contenedor {
+        display: flex;
+        width: 50%;
+        justify-content: right;
+        margin-left: 200px;
+    }
+
+    /* Menu de recomendaciones */
+    .otromas {
+        display: grid;
+        list-style-type: none;
+        justify-items: center;
+        box-shadow: none;
+    }
+
+    .colores2 {
+        font-family: "Frijole";
+        color: rgb(20, 130, 180);
+        list-style-type: none;
+
+    }
+
+    .colores3 {
+        color: rgba(73, 128, 150, 0.678);
+        text-shadow: 10px;
+        box-shadow: 30px 0px 0px 0px;
+        background-color: rgb(39, 77, 77);
+        font-family: "Frijole";
+
+    }
+
+    body section ul h2 {
+        color: rgb(76, 196, 218);
+        text-align: center;
+        font-family: "Frijole";
+    }
+
+    /* Footer */
+    .menu2 {
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 10px 130px 350px 310px;
+        background-color: rgb(45, 61, 58);
+        color: rgba(63, 84, 90, 0.37);
+        width: 100%;
+        padding: 17px 0 17px 0;
+
+
+    }
+
+}
+
+/* Desde 1000px hasta 1176px */
+@media(min-width:1000px) {
+
+    body {
+        margin: 0 auto;
+        background-color: rgb(5, 4, 4);
+    }
+
+    h1 {
+        color: rgb(255, 0, 0);
+        text-align: center;
+        font-family: "Nosifer"
+    }
+
+    /* Menu de navegacion */
+    .form {
+        display: flex;
+        text-align: center;
+        margin-top: 100px;
+        margin-right: 0px;
+        font-family: "Bakbak One";
+        color: rgb(228, 21, 21);
+        margin-left: 0px;
+
+
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        padding: 0%;
+        width: 100%;
+        height: 20%;
+        padding-left: 7px;
+        padding-top: 0px;
+    }
+
+    .menu li a {
+        color: rgb(214, 16, 16);
+        display: flex;
+        flex-direction: row;
+        padding: 96px 0px 8px 13px;
+        margin: 0px 0px 10px 0px;
+        margin-bottom: 0px;
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 10px 10px 10px 45px;
+
+        color: rgb(201, 66, 66);
+        width: 20%;
+        padding: 0px 0px 0px 0px;
+        font-family: "fantasy"
+
+    }
+
+
+    /* Subtitulo */
+    .subra {
+        border-bottom: solid 8px rgb(206, 11, 11);
+        color: rgb(26, 16, 16);
+        box-shadow: 10px 10px 40px 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        text-decoration: underline;
+        font-family: "Nosifer"
+    }
+
+
+    h2 {
+        font-family: "Nosifer";
+        color: rgb(177, 36, 36);
+        padding: 20px;
+        text-decoration: underline;
+    }
+
+    /* Menu de mas recomendaciones */
+    .otromas {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        color: rgb(109, 56, 56);
+        list-style-type: unset;
+        justify-items: center;
+    }
+
+    /* Configuracion de texto y decoraciones */
+    .colores2 {
+        font-family: "Frijole";
+        color: rgb(209, 19, 19);
+    }
+
+    .colores3 {
+        color: rgb(243, 45, 19);
+        text-shadow: 100px;
+        box-shadow: 3px 100px 100px 33px;
+        border: solid;
+        border-radius: 10px;
+        background-color: black;
+        font-family: "Frijole";
+
+    }
+
+    h3 {
+        color: rgb(189, 255, 7);
+        box-shadow: 33px 100px 100px 3px;
+        background-color: rgba(238, 155, 61, 0.253);
+        font-family: "Bakbak One";
+
+    }
+
+    body section ul h2 {
+        color: rgb(240, 24, 8);
+        font-family: "Frijole";
+    }
+
+    /* Footer/pie de pagina */
+    .menu2 {
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 20px 2px 50px 10px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(252, 0, 0);
+        width: 100%;
+        padding: 17px 0 17px 0;
+        list-style-type: decimal-leading-zero;
+
+    }
+
+    div ul li {
+        list-style-type: none
+    }
+
+    /* Configuracion del carrousel */
+    .contenedor {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        margin-left: 300px;
+    }
+
+
+}
+
+@media(min-width:1177px) {
+
+    body {
+        margin: 0 auto;
+        background-color: rgb(0, 0, 0);
+    }
+
+    h1 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-family: "Nosifer"
+    }
+
+    /* Menu de navegacion */
+    .form {
+        margin-top: 40px;
+        text-align: center;
+        font-family: "Bakbak One";
+
+    }
+
+    .menu {
+        background-color: rgb(3, 5, 5);
+        list-style: none;
+        padding: 0%;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .menu li a {
+        display: flex;
+        text-decoration: none;
+        color: rgb(238, 37, 15);
+        padding: 30px;
+        padding-right: 30px;
+        font-family: "Bakbak One";
+    }
+
+    .menu li {
+        display: inline-block;
+        padding: 10px;
+        margin-right: 50px;
+        margin-inline-start: 0px;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 20px 20px 40px 50px;
+
+        color: rgb(255, 8, 0);
+        width: 100%;
+        padding: 12px 10px 12px 10px;
+        font-family: "fantasy"
+
+    }
+
+    /* Subtitulo */
+    .subra {
+        border-bottom: solid 8px rgb(196, 64, 64);
+        color: rgb(0, 0, 0);
+        box-shadow: 10px 10px 40px 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        text-decoration: underline;
+        font-family: "Nosifer"
+    }
+
+
+    h2 {
+        font-family: "Nosifer";
+        color: rgb(231, 5, 5);
+        padding: 20px;
+        text-decoration: underline;
+    }
+
+    /* Menu de mas recomendaciones */
+    .otromas {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        color: rgb(233, 54, 54);
+        list-style-type: unset;
+        justify-items: center;
+    }
+
+    /* Configuracion de texto y decoraciones */
+    .colores2 {
+        font-family: "Frijole";
+        color: rgb(209, 19, 19);
+    }
+
+    .colores3 {
+        color: rgb(243, 45, 19);
+        text-shadow: 100px;
+        box-shadow: 3px 100px 100px 33px;
+        border: solid;
+        border-radius: 10px;
+        background-color: black;
+        font-family: "Frijole";
+
+    }
+
+    h3 {
+        color: rgb(189, 255, 7);
+        box-shadow: 33px 100px 100px 3px;
+        background-color: rgba(238, 155, 61, 0.253);
+        font-family: "Bakbak One";
+
+    }
+
+    body section ul h2 {
+        color: rgb(228, 53, 41);
+    }
+
+    /* Footer/pie de pagina */
+    .menu2 {
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 20px 2px 50px 10px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(252, 0, 0);
+        width: 100%;
+        padding: 17px 0 17px 0;
+        list-style-type: decimal-leading-zero;
+
+    }
+
+    div ul li {
+        list-style-type: none
+    }
+
+    /* Configuracion del carrousel */
+    .contenedor {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+        margin-left: 300px;
+    }
+
+
+
+
+}

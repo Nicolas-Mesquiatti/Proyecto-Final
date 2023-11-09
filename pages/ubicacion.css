@@ -1,0 +1,42 @@
+h1 {
+    color: rgb(243, 10, 10);
+    text-align: center;
+    font-family: "Frijole";
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(https://us.123rf.com/450wm/volyk/volyk1905/volyk190500151/122504290-patr%C3%B3n-sin-fisuras-con-bicicletas-aislado-sobre-fondo-blanco.jpg);
+}
+
+.ubi {
+    text-align: center;
+    padding-top: 100px;
+    border-left: solid;
+    border-right: solid;
+    border-color: rgb(243, 12, 12);
+    box-shadow: 10px 10px 20px 30px;
+    border-top: 1120px;
+    margin-top: 70px;
+    margin-bottom: 120px;
+    padding-bottom: 120px;
+}
+
+.textoo {
+
+    color: rgb(255, 8, 8);
+    text-align: center;
+    font-family: "Nosifer";
+    background-color: rgba(170, 88, 77, 0.603);
+    list-style-type: none;
+}
+
+.mapa {
+    color: rgb(214, 7, 255);
+}
+
+h3 {
+    font-family: "Nosifer";
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}

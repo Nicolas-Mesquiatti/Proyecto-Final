@@ -1,0 +1,22 @@
+h1 {
+    color: rgb(248, 4, 4);
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Nosifer";
+
+}
+
+body {
+    background-image: url(https://previews.123rf.com/images/konstantinks/konstantinks1410/konstantinks141000497/32824071-s%C3%ADmbolo-de-la-bici-patr%C3%B3n-transparente-sobre-fondo-negro-ilustraci%C3%B3n-del-vector.jpg);
+    background-size: 15%;
+
+}
+
+section {
+
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    text-align: center;
+    font-family: "Nosifer";
+    background-color: rgba(15, 12, 12, 0.63)
+     }

@@ -1,0 +1,178 @@
+h1 {
+    color: rgb(243, 10, 10);
+    text-align: center;
+    font-family: "Frijole";
+    text-decoration: underline;
+}
+
+.tarjeta {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto 100px 10px;
+    padding-top: 50px;
+    padding-left: 60px;
+
+}
+
+.card-header {
+    color: rgb(255, 0, 0);
+    box-shadow: 10px 60px 40px 60px;
+    background-color: black !important;
+    font-family: "Bakbak One";
+}
+
+.card-body {
+    color: black;
+    background-color: rgb(221, 161, 161);
+    font-family: "Bakbak One";
+}
+
+.text-bg-info {
+    color: rgb(0, 0, 0) !important;
+}
+
+body {
+    background-color: black;
+}
+
+.color1 {
+    color: rgb(255, 25, 25);
+}
+
+.color2 {
+    color: rgb(245, 122, 51);
+    text-decoration: underline;
+}
+
+.letratitu {
+    font-family: "Nosifer";
+}
+
+
+@media (max-width: 600px) {
+
+    .card-header {
+        box-shadow: 0px 0px 0px 0px;
+        padding-right: 10px;
+        color: rgb(197, 109, 109);
+    }
+
+    .tarjeta {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto 10px 10px;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .card-body {
+        color: rgb(255, 0, 0);
+        background-color: rgba(6, 7, 3, 0.945);
+        font-family: "Bakbak One";
+    }
+
+    body {
+        background-color: rgb(61, 32, 32);
+    }
+
+    .letratitu {
+        font-family: "fantasy";
+        color: rgb(253, 0, 0);
+    }
+
+    .color1 {
+        color: rgb(221, 70, 70);
+    }
+
+}
+
+
+@media (min-width: 601px) {
+
+    .card-header {
+        box-shadow: 0px 0222px 0123px 20px;
+        padding-right: 10px;
+        color: rgb(196, 86, 86);
+
+    }
+
+    .tarjeta {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto 10px 10px;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .card-body {
+        color: rgb(255, 0, 0);
+        background-color: rgba(6, 7, 3, 0.945);
+        font-family: "Bakbak One";
+    }
+
+    body {
+        background-color: rgb(61, 32, 32);
+    }
+
+    .letratitu {
+        font-family: "Nosifer";
+        color: rgb(253, 0, 0);
+    }
+
+    .color1 {
+        color: rgb(221, 70, 70);
+    }
+
+}
+
+@media (min-width: 1000px) {
+    h1 {
+        color: rgb(243, 10, 10);
+        text-align: center;
+        font-family: "Frijole";
+        text-decoration: underline;
+    }
+
+    .tarjeta {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto 100px 10px;
+        padding-top: 50px;
+        padding-left: 60px;
+
+    }
+
+    .card-header {
+        color: rgb(255, 0, 0);
+        box-shadow: 10px 60px 40px 60px;
+        background-color: black !important;
+        font-family: "Bakbak One";
+    }
+
+    .card-body {
+        color: black;
+        background-color: rgb(221, 161, 161);
+        font-family: "Bakbak One";
+    }
+
+    .text-bg-info {
+        color: rgb(0, 0, 0) !important;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .color1 {
+        color: rgb(255, 25, 25);
+    }
+
+    .color2 {
+        color: rgb(245, 122, 51);
+        text-decoration: underline;
+    }
+
+    .letratitu {
+        font-family: "Nosifer";
+    }
+}

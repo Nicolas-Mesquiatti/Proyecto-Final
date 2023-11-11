@@ -1,3 +1,31 @@
 ul{
-    list-style-type: lower-latin;
+    line-height: 50px;
+    color: antiquewhite;
+    list-style-position:inside;
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(190, 185, 185);
+    font-family: "Rubik Vinyl";
+}
+body{
+    background:linear-gradient(50deg, rgba(79,0,255,1) 7%, rgba(157,115,162,1) 40%, rgba(7,0,36,1) 70%);
+ }
+.Acomodo{
+    text-align: center;
+   
+}
+h3{
+    padding-top: 3px;
+    text-decoration:none;
+    
+    color: rgb(121, 231, 217);
+    font-family: "Fugaz One";
+}
+.enlace{
+    color: rgb(239, 230, 255);
+    text-decoration: none;
+    font-family: "Fugaz One";
 }

@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    font-family: "Rubik Vinyl";
+    text-decoration: underline;
+}
+body{
+    background: linear-gradient(90deg, rgb(29, 47, 68) 0%, rgba(69,129,149,1) 33%, rgb(17, 16, 61) 75%);
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-family: "Rubik Vinyl";
+    text-decoration: underline;
+}
+
+.Tecnico{
+    color:rgb(252, 233, 208);
+    font-family: "Carter One";
+}
+.link{
+    color: rgb(238, 183, 197)
+}

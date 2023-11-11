@@ -1,4 +1,7 @@
 // Con este js y el formulario lo hice a traves de videos y de mas
+
+
+
 var inputs = document.getElementsByClassName('formulario_input');
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -19,10 +22,6 @@ const expresiones = {
 	telefono: /^\d{7,14}$/ // 7 a 14 numeros.
 }
 
-const nombre = document.getElementById('Nombres');
-    e.preventDefault()
-    form.addEventListener("submit", e=>{
-        if(nombre.nodeValuevalue.length <6){
-            alert("Nombre corto")
-        }
-    })
+
+let formulario = document.getElementById("form");
+

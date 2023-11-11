@@ -1,10 +1,10 @@
 body {
     margin: 0 auto;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(133, 36, 36);
 }
 
 h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(109, 60, 60);
     text-align: center;
     font-family: "Nosifer"
 }
@@ -18,7 +18,7 @@ h1 {
 }
 
 .menu {
-    background-color: rgb(3, 5, 5);
+    background-color: rgb(88, 131, 131);
     list-style: none;
     padding: 0%;
     width: 100%;
@@ -57,7 +57,7 @@ nav {
 /* Subtitulo */
 .subra {
     border-bottom: solid 8px rgb(196, 64, 64);
-    color: rgb(0, 0, 0);
+    color: rgb(216, 22, 22);
     box-shadow: 10px 10px 40px 40px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -69,7 +69,7 @@ nav {
 
 h2 {
     font-family: "Nosifer";
-    color: rgb(231, 5, 5);
+    color: rgb(180, 51, 51) ;
     padding: 20px;
     text-decoration: underline;
 }
@@ -79,7 +79,7 @@ h2 {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    color: rgb(233, 54, 54);
+    color: rgb(170, 31, 31);
     list-style-type: unset;
     justify-items: center;
 }
@@ -87,7 +87,7 @@ h2 {
 /* Configuracion de texto y decoraciones */
 .colores2 {
     font-family: "Frijole";
-    color: rgb(209, 19, 19);
+    color: rgb(192, 82, 82);
 }
 
 .colores3 {
@@ -146,6 +146,9 @@ div ul li {
 /* LA BARRA DE NAVEGACION */
 @media(max-width:600px) {
 
+    h1{
+        color: rgb(0, 0, 0);
+    }
     .menu {
         display: flex;
         flex-direction: column;
@@ -154,12 +157,13 @@ div ul li {
         width: 100%;
         height: 0%;
         padding-left: 30px;
+        background-color: rgba(226, 125, 125, 0.815)
     }
 
     .menu li a {
-        color: rgb(240, 248, 255);
+        color: rgb(240, 240, 240);
         display: flex;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 180px;
         margin: 0px 0px 10px 0px;
 
     }
@@ -167,9 +171,10 @@ div ul li {
     nav {
         display: flex;
         flex-direction: column;
-        box-shadow: 10px 10px 10px 45px;
+      
+        
 
-        color: rgb(240, 226, 226);
+        color: rgb(255, 255, 255);
         width: 20%;
         padding: 0px 0px 0px 0px;
         font-family: "fantasy"
@@ -180,16 +185,16 @@ div ul li {
         flex-direction: column;
         padding-top: 0%;
         margin-top: 4%;
-        text-align: start;
-        color: rgb(186, 220, 250);
+        text-align:initial;
+        color: rgb(250, 253, 255);
         padding: 5px 02px 1px 0px;
-        margin: 0px 5px 15px 30px;
-
+        margin: 01px 5px 1px 190px;
+        
     }
 
     /* El subtitulo */
     .subra {
-        color: rgb(5, 2, 2);
+        color: rgb(0, 0, 0);
         box-shadow: none;
         border-bottom: none;
         margin-top: 10px;
@@ -210,21 +215,25 @@ div ul li {
         display: flex;
         width: 50%;
         justify-content: right;
-        margin-left: 40px;
+        margin-left: 150px;
     }
 
     /* Menu de recomendaciones */
     .otromas {
         display: grid;
-        list-style-type: none;
+        list-style-position: inside;
+        
         justify-items: start;
         box-shadow: none;
+        margin-left: 70px;
+        color: rgb(0, 0, 0)
     }
 
     .colores2 {
         font-family: "Frijole";
-        color: rgb(235, 202, 202);
+        color: rgb(255, 191, 191);
         list-style-type: none;
+        margin-left: 100px;
 
     }
 
@@ -232,13 +241,13 @@ div ul li {
         color: rgb(211, 192, 189);
         text-shadow: 10px;
         box-shadow: 30px 0px 0px 0px;
-        background-color: rgb(61, 46, 46);
+        background-color: rgb(0, 0, 0);
         font-family: "Frijole";
 
     }
 
     body section ul h2 {
-        color: rgb(250, 250, 250);
+        color: rgb(0, 0, 0);
     }
 
     /* Footer */
@@ -246,8 +255,8 @@ div ul li {
         display: block;
         text-align: center;
         box-shadow: 70px 2px 50px 10px;
-        background-color: rgba(49, 46, 46, 0.514);
-        color: rgba(49, 41, 41, 0.74);
+        background-color: rgba(241, 117, 117, 0.514);
+        color: rgba(212, 169, 169, 0.74);
         width: 100%;
         padding: 17px 0 17px 0;
         list-style-type: decimal-leading-zero;

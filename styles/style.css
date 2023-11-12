@@ -148,6 +148,7 @@ div ul li {
 
     h1{
         color: rgb(0, 0, 0);
+        padding-left: 100px;
     }
     .menu {
         display: flex;
@@ -156,15 +157,15 @@ div ul li {
         padding-right: 100%;
         width: 100%;
         height: 0%;
-        padding-left: 30px;
-        background-color: rgba(226, 125, 125, 0.815)
+        padding-left: 210px;
+        background-color: rgba(228, 72, 72, 0.815)
     }
 
     .menu li a {
         color: rgb(240, 240, 240);
         display: flex;
-        padding: 0px 0px 0px 180px;
-        margin: 0px 0px 10px 0px;
+        padding: 0px 0px 0px 0px;
+        margin: 1px 0px 10px 0px;
 
     }
 
@@ -176,19 +177,19 @@ div ul li {
 
         color: rgb(255, 255, 255);
         width: 20%;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 1px 0px;
         font-family: "fantasy"
 
     }
 
     .form {
         flex-direction: column;
-        padding-top: 0%;
-        margin-top: 4%;
+        
+        
         text-align:initial;
-        color: rgb(250, 253, 255);
-        padding: 5px 02px 1px 0px;
-        margin: 01px 5px 1px 190px;
+        color: rgb(255, 255, 255);
+        padding: 40px 02px 1px 0px;
+        margin: 0px 22px 0px 39px;
         
     }
 
@@ -198,7 +199,8 @@ div ul li {
         box-shadow: none;
         border-bottom: none;
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-left: 70px;
+        margin-bottom: 20px;
         text-align: center;
         text-decoration: underline;
         font-family: "Nosifer"
@@ -213,7 +215,7 @@ div ul li {
     /* EL CAROUSEL... NO PUDE ACOMODAR EL TEXTO QUE ESTABA DENTRO DEL CAROUSEL ESO SI QUE ME COMPLICO */
     .contenedor {
         display: flex;
-        width: 50%;
+        width: 60%;
         justify-content: right;
         margin-left: 150px;
     }
@@ -221,46 +223,52 @@ div ul li {
     /* Menu de recomendaciones */
     .otromas {
         display: grid;
-        list-style-position: inside;
-        
-        justify-items: start;
+        list-style-type: none;
+        justify-items:legacy;
         box-shadow: none;
-        margin-left: 70px;
-        color: rgb(0, 0, 0)
+        margin-left: 120px;
+        color: rgb(218, 176, 176);
+        
     }
 
     .colores2 {
         font-family: "Frijole";
-        color: rgb(255, 191, 191);
+        color: rgb(255, 232, 232);
         list-style-type: none;
-        margin-left: 100px;
+        margin-left: 20px;
 
+    }
+    .listas{
+        margin-left: 80px;
     }
 
     .colores3 {
-        color: rgb(211, 192, 189);
+        color: rgb(255, 255, 255);
         text-shadow: 10px;
         box-shadow: 30px 0px 0px 0px;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
         font-family: "Frijole";
 
     }
 
     body section ul h2 {
         color: rgb(0, 0, 0);
+        margin-left: 20px;
+        margin-right:112px;
+        text-align: start;
     }
-
+    
     /* Footer */
     .menu2 {
-        display: block;
-        text-align: center;
-        box-shadow: 70px 2px 50px 10px;
-        background-color: rgba(241, 117, 117, 0.514);
-        color: rgba(212, 169, 169, 0.74);
-        width: 100%;
-        padding: 17px 0 17px 0;
-        list-style-type: decimal-leading-zero;
+        display:flex;
+        flex-direction: row;
 
+        text-align: center;
+        background-color: rgba(245, 25, 25, 0.514);
+        width: 100%;
+        padding: 0px 22px 7px 50px;
+        
+        list-style-type:none;
     }
 
 }
@@ -274,15 +282,16 @@ div ul li {
         flex-direction: row;
         padding: 0%;
         width: 100%;
-        height: 20%;
-        padding-left: 200px;
+        height: 100%;
+        padding-left: 00px;
+        
     }
 
     .menu li a {
-        color: rgb(35, 212, 243);
+        color: rgb(0, 217, 255);
         display: flex;
         flex-direction: row;
-        padding: 10px 222px 0px 0px;
+        padding: 20px 62px 0px 0px;
         margin: 0px 0px 10px 0px;
 
     }
@@ -290,28 +299,29 @@ div ul li {
     nav {
         display: flex;
         flex-direction: column;
-        box-shadow: 10px 10px 10px 45px;
+        box-shadow: 10px 10px 40px 45px;
 
-        color: rgb(240, 226, 226);
+        color: rgb(43, 187, 168);
         width: 20%;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 2px 1px 0px;
         font-family: "fantasy"
 
     }
 
     .form {
         text-align: center;
-        padding-top: 66%;
-        margin-top: 22%;
-        color: rgb(31, 200, 252);
-        padding: 5px 2px 1px 0px;
-        margin: 110px 50px 115px 0px;
+        
+               
+        color: rgb(21, 200, 255);
+        padding: 25px 2px 2px 2px;
+        margin: 20px 10px 5px 110px;
+
 
     }
 
     /* El subtitulo */
     .subra {
-        color: rgba(64, 156, 241, 0.76);
+        color: rgba(27, 75, 59);
         box-shadow: 10px 10px 670px 30px;
         border-bottom: none;
         margin-top: 10px;
@@ -326,7 +336,9 @@ div ul li {
         padding: 10px;
         text-decoration: none;
     }
-
+    h1{
+        color: rgb(27, 75, 59);
+    }
     /* EL CAROUSEL... NO PUDE ACOMODAR EL TEXTO QUE ESTABA DENTRO DEL CAROUSEL ESO SI QUE ME COMPLICO */
     .contenedor {
         display: flex;
@@ -345,20 +357,22 @@ div ul li {
 
     .colores2 {
         font-family: "Frijole";
-        color: rgb(20, 130, 180);
+        color: rgb(125, 184, 166);
         list-style-type: none;
 
     }
 
     .colores3 {
-        color: rgba(73, 128, 150, 0.678);
+        color: rgba(0, 183, 255, 0.678);
         text-shadow: 10px;
         box-shadow: 30px 0px 0px 0px;
         background-color: rgb(39, 77, 77);
         font-family: "Frijole";
 
     }
-
+    body{
+        background-color: rgb(27, 75, 59);
+    }
     body section ul h2 {
         color: rgb(76, 196, 218);
         text-align: center;
@@ -370,8 +384,8 @@ div ul li {
         display: flex;
         flex-wrap: wrap;
         box-shadow: 10px 130px 350px 310px;
-        background-color: rgb(45, 61, 58);
-        color: rgba(63, 84, 90, 0.37);
+        background-color: rgb(75, 148, 135);
+        color: rgba(41, 77, 87, 0.37);
         width: 100%;
         padding: 17px 0 17px 0;
 
@@ -385,56 +399,60 @@ div ul li {
 
     body {
         margin: 0 auto;
-        background-color: rgb(5, 4, 4);
+        background-color: rgb(168, 103, 202);
     }
 
     h1 {
-        color: rgb(255, 0, 0);
+        color: rgb(4, 0, 255);
         text-align: center;
         font-family: "Nosifer"
     }
 
     /* Menu de navegacion */
     .form {
-        display: flex;
-        text-align: center;
-        margin-top: 100px;
-        margin-right: 0px;
+        display: block;
+        text-align:center ;
+        margin-top: 0px;
+        margin-right: 500px;
         font-family: "Bakbak One";
-        color: rgb(228, 21, 21);
-        margin-left: 0px;
+        color: rgb(93, 21, 228);
+        margin-left: 230px;
 
 
     }
 
     .menu {
-        display: flex;
-        flex-direction: row;
+        display:block;
+        flex-direction:inherit;
         padding: 0%;
         width: 100%;
-        height: 20%;
-        padding-left: 7px;
+        height: 50%;
+        padding-left: 177px;
         padding-top: 0px;
+        padding-bottom: 20px;
+        background-color: rgba(133, 68, 158, 0.274);
     }
 
     .menu li a {
-        color: rgb(214, 16, 16);
-        display: flex;
+        color: rgb(75, 16, 214);
+        display: block;
         flex-direction: row;
-        padding: 96px 0px 8px 13px;
+        padding: 6px 0px 8px 3px;
         margin: 0px 0px 10px 0px;
         margin-bottom: 0px;
 
     }
+    
+
 
     nav {
-        display: flex;
-        flex-direction: column;
+        display: block;
+        flex-direction:row;
         box-shadow: 10px 10px 10px 45px;
-
-        color: rgb(201, 66, 66);
-        width: 20%;
-        padding: 0px 0px 0px 0px;
+        
+        color: rgb(97, 28, 124);
+        width: 100%;
+        
         font-family: "fantasy"
 
     }
@@ -442,8 +460,8 @@ div ul li {
 
     /* Subtitulo */
     .subra {
-        border-bottom: solid 8px rgb(206, 11, 11);
-        color: rgb(26, 16, 16);
+        border-bottom: solid 8px rgb(9, 0, 90);
+        color: rgb(40, 17, 253);
         box-shadow: 10px 10px 40px 40px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -455,7 +473,7 @@ div ul li {
 
     h2 {
         font-family: "Nosifer";
-        color: rgb(177, 36, 36);
+        
         padding: 20px;
         text-decoration: underline;
     }
@@ -465,38 +483,38 @@ div ul li {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
-        color: rgb(109, 56, 56);
+        color: rgb(32, 29, 190);
         list-style-type: unset;
         justify-items: center;
     }
 
-    /* Configuracion de texto y decoraciones */
+    /* Configuracion de texto y decoraciones del footer y otros productos */
     .colores2 {
         font-family: "Frijole";
-        color: rgb(209, 19, 19);
+        color: rgb(91, 9, 245);
     }
 
     .colores3 {
-        color: rgb(243, 45, 19);
+        color: rgb(243, 19, 213);
         text-shadow: 100px;
         box-shadow: 3px 100px 100px 33px;
         border: solid;
         border-radius: 10px;
-        background-color: black;
+        background-color: rgb(17, 16, 22);
         font-family: "Frijole";
 
     }
 
     h3 {
-        color: rgb(189, 255, 7);
+        color: rgb(0, 41, 247);
         box-shadow: 33px 100px 100px 3px;
-        background-color: rgba(238, 155, 61, 0.253);
+        background-color: rgba(255, 255, 255, 0.253);
         font-family: "Bakbak One";
 
     }
 
     body section ul h2 {
-        color: rgb(240, 24, 8);
+        color: rgb(221, 8, 240);
         font-family: "Frijole";
     }
 
@@ -505,8 +523,8 @@ div ul li {
         display: flex;
         justify-content: space-around;
         box-shadow: 20px 2px 50px 10px;
-        background-color: rgb(0, 0, 0);
-        color: rgb(252, 0, 0);
+        background-color: rgb(111, 99, 224);
+        color: rgb(10, 0, 155);
         width: 100%;
         padding: 17px 0 17px 0;
         list-style-type: decimal-leading-zero;
@@ -522,7 +540,7 @@ div ul li {
         display: flex;
         width: 50%;
         justify-content: center;
-        margin-left: 300px;
+        margin-left: 230px;
     }
 
 
@@ -532,25 +550,27 @@ div ul li {
 
     body {
         margin: 0 auto;
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(114, 179, 165, 0.582);
     }
 
     h1 {
-        color: rgb(0, 0, 0);
+        color: rgb(42, 49, 148);
         text-align: center;
         font-family: "Nosifer"
     }
 
     /* Menu de navegacion */
     .form {
-        margin-top: 40px;
+        margin-top: 0px;
         text-align: center;
         font-family: "Bakbak One";
+        margin-left: 400px;
+        color: rgb(0,46, 132);
 
     }
 
     .menu {
-        background-color: rgb(3, 5, 5);
+        background-color: rgba(192, 98, 75, 0.034);
         list-style: none;
         padding: 0%;
         width: 100%;
@@ -560,17 +580,18 @@ div ul li {
     .menu li a {
         display: flex;
         text-decoration: none;
-        color: rgb(238, 37, 15);
-        padding: 30px;
-        padding-right: 30px;
+        color: rgb(0, 43, 136);
+        padding: 0px;
+        padding-right: 0px;
+        padding-left:90px;
         font-family: "Bakbak One";
     }
 
     .menu li {
         display: inline-block;
         padding: 10px;
-        margin-right: 50px;
-        margin-inline-start: 0px;
+        margin-right: 0px;
+        margin-inline-start: 50px;
 
     }
 
@@ -579,7 +600,7 @@ div ul li {
         justify-content: space-around;
         box-shadow: 20px 20px 40px 50px;
 
-        color: rgb(255, 8, 0);
+        color: rgb(64, 69, 160);
         width: 100%;
         padding: 12px 10px 12px 10px;
         font-family: "fantasy"
@@ -588,8 +609,8 @@ div ul li {
 
     /* Subtitulo */
     .subra {
-        border-bottom: solid 8px rgb(196, 64, 64);
-        color: rgb(0, 0, 0);
+        border-bottom: solid 8px rgb(30, 89, 95);
+        color: rgb(0, 2, 99);
         box-shadow: 10px 10px 40px 40px;
         margin-top: 10px;
         margin-bottom: 10px;
@@ -601,7 +622,7 @@ div ul li {
 
     h2 {
         font-family: "Nosifer";
-        color: rgb(231, 5, 5);
+        color: rgb(5, 9, 231);
         padding: 20px;
         text-decoration: underline;
     }
@@ -611,7 +632,7 @@ div ul li {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
-        color: rgb(233, 54, 54);
+        color: rgb(72, 54, 233);
         list-style-type: unset;
         justify-items: center;
     }
@@ -619,30 +640,30 @@ div ul li {
     /* Configuracion de texto y decoraciones */
     .colores2 {
         font-family: "Frijole";
-        color: rgb(209, 19, 19);
+        color: rgb(19, 22, 209);
     }
 
     .colores3 {
-        color: rgb(243, 45, 19);
+        color: rgb(60, 19, 243);
         text-shadow: 100px;
         box-shadow: 3px 100px 100px 33px;
         border: solid;
         border-radius: 10px;
-        background-color: black;
+        background-color: rgb(81, 166, 206);
         font-family: "Frijole";
 
     }
 
     h3 {
-        color: rgb(189, 255, 7);
+        color: rgb(7, 255, 214);
         box-shadow: 33px 100px 100px 3px;
-        background-color: rgba(238, 155, 61, 0.253);
+        background-color: rgba(61, 108, 238, 0.253);
         font-family: "Bakbak One";
 
     }
 
     body section ul h2 {
-        color: rgb(228, 53, 41);
+        color: rgb(10, 0, 102);
     }
 
     /* Footer/pie de pagina */
@@ -650,10 +671,10 @@ div ul li {
         display: flex;
         justify-content: space-around;
         box-shadow: 20px 2px 50px 10px;
-        background-color: rgb(0, 0, 0);
-        color: rgb(252, 0, 0);
+        background-color: rgba(114, 179, 165, 0.582);
+        color: rgb(0, 4, 252);
         width: 100%;
-        padding: 17px 0 17px 0;
+        padding: 10px 122px 17px 80px;
         list-style-type: decimal-leading-zero;
 
     }

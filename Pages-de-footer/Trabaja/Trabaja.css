@@ -51,11 +51,12 @@
     outline: 6px solid rgba(180, 26, 211, 0.568)
 }
 .formulario_input:focus + .formulario_label{
-    margin-top: -139px;
+    margin-top: -149px;
 }
 .fijar{
-    margin-top: -139px;
+    margin-top: -149px;
     color: rgba(216, 44, 101, 0.9);
+    font-family: "Diplomata";
 }
 
 body{

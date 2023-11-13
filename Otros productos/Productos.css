@@ -1,0 +1,27 @@
+.acomodo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+    grid-gap: 0px;
+}
+
+.tarjetas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    width: 100%;
+    background-color: rgb(116, 78, 219);
+}
+body{
+    background:radial-gradient(violet,rgb(201, 74, 74));
+}
+.btn{
+    color: rgb(47, 0, 255);
+    background-color: rgb(201, 202, 214);
+}
+h1{
+    text-align: center;
+    
+}

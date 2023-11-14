@@ -1,3 +1,5 @@
+
+// Queria hacer esto con lo de Fakestore api que vimos en clase, y necesitaba la grabacion porque no sabia como hacerlo. pero como no esta tuve que hacerlo solo con html todo feo D:
 [
     {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
     "price":109.95,

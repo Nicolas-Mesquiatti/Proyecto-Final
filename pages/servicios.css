@@ -1,5 +1,5 @@
 h1 {
-    color: rgb(243, 10, 10);
+    color: rgb(76, 163, 189);
     text-align: center;
     font-family: "Frijole";
     text-decoration: underline;
@@ -15,15 +15,15 @@ h1 {
 }
 
 .card-header {
-    color: rgb(255, 0, 0);
+    color: rgb(20, 131, 94);
     box-shadow: 10px 60px 40px 60px;
-    background-color: black !important;
+    background-color: rgb(50, 34, 189) !important;
     font-family: "Bakbak One";
 }
 
 .card-body {
-    color: black;
-    background-color: rgb(221, 161, 161);
+    color: rgb(233, 192, 192);
+    background-color: rgb(206, 189, 189);
     font-family: "Bakbak One";
 }
 
@@ -32,20 +32,21 @@ h1 {
 }
 
 body {
-    background-color: black;
+    background-color: rgb(126, 203, 206);
 }
 
 .color1 {
-    color: rgb(255, 25, 25);
+    color: rgb(230, 211, 211);
 }
 
 .color2 {
-    color: rgb(245, 122, 51);
+    color: rgb(255, 254, 254);
     text-decoration: underline;
 }
 
 .letratitu {
     font-family: "Nosifer";
+    color: aqua;
 }
 
 
@@ -54,7 +55,7 @@ body {
     .card-header {
         box-shadow: 0px 0px 0px 0px;
         padding-right: 10px;
-        color: rgb(197, 109, 109);
+        color: rgb(241, 234, 234)
     }
 
     .tarjeta {
@@ -66,22 +67,22 @@ body {
     }
 
     .card-body {
-        color: rgb(255, 0, 0);
-        background-color: rgba(6, 7, 3, 0.945);
+        color: rgb(230, 214, 214);
+        background-color: rgba(22, 6, 85, 0.397);
         font-family: "Bakbak One";
     }
 
     body {
-        background-color: rgb(61, 32, 32);
+        background-color: rgba(32, 61, 54, 0.178);
     }
 
     .letratitu {
         font-family: "fantasy";
-        color: rgb(253, 0, 0);
+        color: rgb(0, 252, 252);
     }
 
     .color1 {
-        color: rgb(221, 70, 70);
+        color: rgb(44, 71, 221);
     }
 
 }
@@ -89,10 +90,14 @@ body {
 
 @media (min-width: 601px) {
 
+
+    h1{
+        color: rgb(17, 0, 255);
+    }
     .card-header {
         box-shadow: 0px 0222px 0123px 20px;
         padding-right: 10px;
-        color: rgb(196, 86, 86);
+        color: rgb(236, 231, 231);
 
     }
 
@@ -105,29 +110,29 @@ body {
     }
 
     .card-body {
-        color: rgb(255, 0, 0);
-        background-color: rgba(6, 7, 3, 0.945);
+        color: rgb(206, 180, 180);
+        background-color: rgba(0, 0, 0, 0.945);
         font-family: "Bakbak One";
     }
 
     body {
-        background-color: rgb(61, 32, 32);
+        background-color: rgb(196, 199, 230);
     }
 
     .letratitu {
         font-family: "Nosifer";
-        color: rgb(253, 0, 0);
+        color: rgb(0, 17, 253);
     }
 
     .color1 {
-        color: rgb(221, 70, 70);
+        color: rgb(70, 80, 221);
     }
 
 }
 
 @media (min-width: 1000px) {
     h1 {
-        color: rgb(243, 10, 10);
+        color: rgb(13, 0, 128);
         text-align: center;
         font-family: "Frijole";
         text-decoration: underline;
@@ -143,7 +148,7 @@ body {
     }
 
     .card-header {
-        color: rgb(255, 0, 0);
+        color: rgb(241, 238, 238);
         box-shadow: 10px 60px 40px 60px;
         background-color: black !important;
         font-family: "Bakbak One";
@@ -151,24 +156,24 @@ body {
 
     .card-body {
         color: black;
-        background-color: rgb(221, 161, 161);
+        background-color: rgb(255, 255, 255);
         font-family: "Bakbak One";
     }
 
     .text-bg-info {
-        color: rgb(0, 0, 0) !important;
+        color: rgb(255, 251, 251) !important;
     }
 
     body {
-        background-color: black;
+        background-color: rgba(156, 103, 145, 0.445);
     }
 
     .color1 {
-        color: rgb(255, 25, 25);
+        color: rgb(105, 25, 255);
     }
 
     .color2 {
-        color: rgb(245, 122, 51);
+        color: rgb(13, 0, 128);
         text-decoration: underline;
     }
 

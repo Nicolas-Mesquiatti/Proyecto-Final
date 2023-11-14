@@ -12,16 +12,25 @@
 
 .card {
     width: 100%;
-    background-color: rgb(116, 78, 219);
+    background-color: rgb(78, 198, 219);
+    font-family: "Contrail One";
 }
 body{
-    background:radial-gradient(violet,rgb(201, 74, 74));
+    background:radial-gradient(rgba(53, 50, 68, 0.363),rgb(0, 56, 139));
 }
 .btn{
-    color: rgb(47, 0, 255);
-    background-color: rgb(201, 202, 214);
+    color: rgb(0, 255, 242);
+    background-color: rgb(1, 12, 10);
 }
 h1{
     text-align: center;
+    font-family:"Diplomata";
+    color: rgba(0, 162, 255, 0.986);
+    text-decoration: underline;
     
+}
+h3{
+    font-family: "Spectral SC";
+    color: rgb(108, 245, 250);
+    box-shadow: 03px 422px 122px 60px;
 }

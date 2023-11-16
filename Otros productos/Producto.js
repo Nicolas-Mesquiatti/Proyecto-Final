@@ -8,3 +8,7 @@
     "rating":{"rate":3.9,"count":120}
     },
 ]
+
+// CONST con todas las cosas(guardada en variable)
+// guardo otra variable en algun lugar del html(xd)
+// for each(recorre la constante)inner.html+=boostrap(xd(dentro inserto)) dentro

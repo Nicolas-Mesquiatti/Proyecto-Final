@@ -1,34 +1,50 @@
-document.getElementById('liveAlertBtn').addEventListener('click', function () {
+function register() {
+  const username = document.getElementById("Nombres").value;
+  const apellido = document.getElementById("Apellidos").value;
+  const email = document.getElementById("Correo").value;
+  const confirmemail = document.getElementById("ConfCorreo").value;
+  const telefono = document.getElementById("Telefono").value;
 
-  var nombres = document.getElementById('Nombres').value;
-  var apellidos = document.getElementById('Apellidos').value;
-  var correo = document.getElementById('Correo').value;
-  var confCorreo = document.getElementById('ConfCorreo').value;
-  var telefono = document.getElementById('Telefono').value;
-
-  
-  if (nombres.length < 3 || correo !== confCorreo || !telefono) {
-      mostrarError('Por favor, completa todos los campos correctamente.');
-      
-      document.getElementById('liveAlertBtn').disabled = true;
-      return;
-  } else {
-      
-      document.getElementById('liveAlertBtn').disabled = false;
+  if (password !== confirmPassword) {
+    showError("Las contraseñas no coinciden.");
+    return;
   }
 
-  
-  mostrarExito('Formulario enviado correctamente.');
-});
+  if (!isPasswordValid(password)) {
+    showError("La contraseña no cumple con los requisitos.");
+    return;
+  }
 
-function mostrarError(mensaje) {
-  document.getElementById('error').innerHTML = mensaje;
-  document.getElementById('error').style.color = 'red';
+  if (!isEmailValid(email)) {
+    showError("El correo electrónico no es válido.");
+    return;
+  }
+
+  // Realizar el procesamiento adicional, como enviar los datos al servidor, almacenar en una base de datos, etc.
+
+  showSuccess("Registro exitoso.");
 }
 
-function mostrarExito(mensaje) {
-  document.getElementById('liveAlertPlaceholder').innerHTML = mensaje;
-  document.getElementById('liveAlertPlaceholder').style.color = 'green';
+function showError(message) {
+  const errorElement = document.getElementById("error");
+  errorElement.textContent = message;
+  errorElement.style.display = "block";
+}
+
+function showSuccess(message) {
+  const successElement = document.getElementById("success");
+  successElement.textContent = message;
+  successElement.style.display = "block";
+}
+
+function isPasswordValid(password) {
+  const regex = /^(?=.*[a-zA-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
+  return regex.test(password);
+}
+
+function isEmailValid(email) {
+  const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return regex.test(email);
 }
 
 
@@ -51,23 +67,3 @@ function mostrarExito(mensaje) {
          });
      });
  });
-
-  const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
-  const appendAlert = (message, type) => {
-    const wrapper = document.createElement('div')
-    wrapper.innerHTML = [
-     `<div class="alert alert-${type} alert-dismissible" role="alert">`,
-      `   <div>${'Enviaste tu formulario correctamente, Estate atento al correo para la convocatoria, Suerte! '}</div>`,
-      '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
-      '</div>'
-    ].join('')
-
-    alertPlaceholder.append(wrapper)
-  }
-
-  const alertTrigger = document.getElementById('liveAlertBtn')
-  if (alertTrigger) {
-    alertTrigger.addEventListener('click', () => {
-      appendAlert('Suertee', 'success')
-    })
-  }

@@ -21,28 +21,42 @@
 </head>
 
 <body>
-    <form action="" class="formulario" id="form">
+    
         <h1 class="formulario_titulo">Trabaja con nosotros</h1>
+
+        
+        <div id="error" class="message"></div>
+        <div id="success" class="message"></div>
+        <form action="" class="formulario" id="registerform" onsubmit="register()">
+
         <input type="text" class="formulario_input" name="Nombres" id="Nombres" required>
         <label for="Nombres" class="formulario_label">Nombres</label>
+
+
         <input type="text" class="formulario_input" name="Apellidos" id="Apellidos" required>
         <label for="Apellidos" class="formulario_label">Apellidos</label>
+
+
         <input type="text" class="formulario_input" name="Correo" id="Correo" required>
         <label for="Correo" class="formulario_label">Correo Electronico</label>
+
+
         <input type="text" class="formulario_input" name="ConfCorreo" id="ConfCorreo" required>
         <label for="ConfCorreo" class="formulario_label">Confirmar Correo</label>
+
         <input type="number" class="formulario_input" name="Telefono" id="Telefono" required>
         <label for="Telefono" class="formulario_label">Telefono</label>
+
         <input type="text" class="formulario_input" required>
         <label for="" class="formulario_label">Disponibilidad</label>
-        <div class="mb-3">
-            <label for="formFile" class="form-label fijar">Dejanos tu cv</label>
-            <input class="form-control" type="file" id="formFile">
 
-        </div>
-        <div id="liveAlertPlaceholder"> </div>
-        <input type="button" class="formulario_submit" id="liveAlertBtn" value="Enviar">
-        <div id="error"></div>
+
+
+
+        <label for="formFile" class="form-label fijar">Dejanos tu cv</label>
+        <input class="form-control" type="file" id="formFile">
+
+        <button type="submit">Registrarse</button>
 
     </form>
 
